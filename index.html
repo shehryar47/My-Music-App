@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="(max-width:850px)" href="phone.css">
+</head>
+
+<body>
+    
+    <section id="top-nav">
+        <nav id="navbar">
+            <ul>
+                <li><a href="#">Music</a></li>
+                <li><img src="logo.png" alt="My Music App" id="logo"></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- Mid Section for Music List -->
+
+    <section id="musicSection" class="midsection">
+        <div id="musicList">
+            <div class="itemlist">
+                <ul>
+                    <h2>Song list</h2><hr>
+                    <li id="1" class="songLists">Love Me Like You Do</li>
+                    <li id="2" class="songLists">Love Me Like You Do</li>
+                    <li id="3" class="songLists">Love Me Like You Do</li>
+                    <li id="4" class="songLists">Love Me Like You Do</li>
+                    <li id="5" class="songLists">Love Me Like You Do</li>
+                    <li id="6" class="songLists">Love Me Like You Do</li>
+                    <li id="7" class="songLists">Love Me Like You Do</li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div id="musicImg">
+            
+            <div class="songImg flex"><h2 id="currentSong"></h2><img src="disc.png" id="rotateimg" alt="">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================================================================ -->
+    <!-- Player Section -->
+
+    <section id="player" class="footer">
+        <div id="musicLength" class="flex">
+            <input type="range" name="length" id="musicTime" min="0" max="100" value="0">
+        </div>
+        
+        <div id="playerControls" class="flex">
+            <img src="backward-step-solid.svg" alt="" id="backward">
+            <img src="play-solid.svg" alt="" id="play">
+            <img src="forward-step-solid.svg" alt="" id="forward">
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

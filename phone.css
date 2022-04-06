@@ -1,0 +1,72 @@
+.songLists{
+    font-size: 1rem;
+}
+#top-nav{
+    
+    width:90vw;
+    height: 6vh;
+}
+
+#top-nav #navbar ul li a{
+    
+    padding: 0;
+    font-size: 1rem;
+    margin: 0;
+}
+#musicSection{
+    flex-direction: column;
+    justify-content: space-around;
+    width:90vw;
+    height: 75vh;
+    
+}
+#musicSection #musicList{
+    
+    width: 100%;
+    height: 70%;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 20px 1px var(--box-c);
+}
+#musicSection #musicImg {
+    
+     width: 100%;
+     height: 30%;
+     
+ }
+
+ #musicSection #musicImg img{
+   
+     width: 35%;
+     margin-bottom: 20px;
+     
+ }
+ #musicSection #musicImg h2{
+   margin-top: 20px;
+   margin-bottom: 20px;
+    font-size: 1rem;
+    
+}
+#player{
+    width:90vw;
+    height: 13vh;
+}
+#playerControls img{
+    width: 30px;    
+    margin: 0 5px 5px 5px;
+}
+#playerControls img:hover{
+    width: 30px;    
+    margin: 0 5px 5px 5px;
+}
+#top-nav #navbar ul li #logo{
+    width: 3.2rem;
+    padding: 30px 10px;
+    
+}
+#top-nav #navbar ul li #logo:hover{
+    width: 3rem;
+    transform: rotate(0deg);
+    transition: 0.2s ease-in;
+    cursor:pointer;
+}
