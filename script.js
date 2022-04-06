@@ -9,13 +9,13 @@ let songIndex = 7;
 let currentSong = document.getElementById("currentSong");
 //Place your song here
 let songs=[
-    {"songName":"Warrior","filePath":"songs/1.mp3","cover":"img/1.png"},
-    {"songName":"Arcando - In My Head ","filePath":"songs/2.mp3","cover":"img/2.png"},
-    {"songName":"Abstrakt - Nobody Else [NCS Release]","filePath":"songs/3.mp3","cover":"img/3.png"},
-    {"songName":"Cartoon & Andromedik - Whatever ","filePath":"songs/4.mp3","cover":"img/4.png"},
-    {"songName":"DigEx - Fall In Love","filePath":"songs/5.mp3","cover":"img/5.png"},
-    {"songName":"Millbrook - Lost Without You","filePath":"songs/6.mp3","cover":"img/6.png"},
-    {"songName":"NIVIRO - The Edge ","filePath":"songs/7.mp3","cover":"img/7.png"}
+    {"songName":"Warrior","filePath":"songs/1.mp3","cover":"./img/1.png"},
+    {"songName":"Arcando - In My Head ","filePath":"songs/2.mp3","cover":"./img/2.png"},
+    {"songName":"Abstrakt - Nobody Else [NCS Release]","filePath":"songs/3.mp3","cover":"./img/3.png"},
+    {"songName":"Cartoon & Andromedik - Whatever ","filePath":"songs/4.mp3","cover":"./img/4.png"},
+    {"songName":"DigEx - Fall In Love","filePath":"songs/5.mp3","cover":"./img/5.png"},
+    {"songName":"Millbrook - Lost Without You","filePath":"songs/6.mp3","cover":"./img/6.png"},
+    {"songName":"NIVIRO - The Edge ","filePath":"songs/7.mp3","cover":"./img/7.png"}
 ]
 
 let song = new Audio(songs[0].filePath);
