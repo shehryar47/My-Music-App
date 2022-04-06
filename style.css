@@ -7,7 +7,7 @@
 :root{
     --bg:#CCF2F4;       
     --textc:#f7f5f5;
-    --inbg:#080808;
+    --inbg:#08080869;
     --box-c:#1d203f;
 }
 body{
@@ -29,7 +29,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--inbg);
+    background-color: black;
     box-sizing: border-box;
     box-shadow: 2px 2px 5px 1px var(--box-c);
 }
